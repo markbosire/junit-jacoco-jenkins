@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         // Define Maven tool using the version installed in Jenkins
-        maven 'Maven 3.9.9'
+        maven 'maven 3.9.9'
     }
     
     stages{
