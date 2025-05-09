@@ -31,6 +31,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+	<dependency>
+    	    <groupId>org.junit.jupiter</groupId>
+    	    <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.version}</version> <!-- Use the same version as your other JUnit dependencies -->
+            <scope>test</scope>
+	</dependency>
     </dependencies>
 
     <build>
